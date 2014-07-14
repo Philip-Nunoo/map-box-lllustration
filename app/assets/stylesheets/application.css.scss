@@ -9,19 +9,8 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require foundation
- *= require_tree .
  *= require_self
  */
-body, html {
-	font-family: 'Roboto', sans-serif;padding: 0;margin: 0;
-	background-color: transparent;
-	height: 100%;
-}
-
-html{
-	background-image: url('/assets/skulls.png');
-}
-
-.clear{
-	clear:both;
-}
+@import "fontello/css/*";
+@import "main.css.scss";
+@import "home.css.scss";

@@ -1,73 +1,10 @@
 <style type="text/css">
 
-
-header{
-	
-}
-#home{
-	padding: 20% 0px;
-	color: #FFF;
-	background-color: rgba(0,0,0,0.75);
-	text-align: center;
-height: 99%;
-}
-
-#home h1 {
-color: #FFF;
-font-family: 'Roboto', sans-serif;
-text-shadow: 4px 0px 0px rgb(0,0,0);
-font-weight: 100;
-}
-
-#home h4 {
-color: #DDD;
-text-shadow: 0px 0px 0px #333;
-font-weight: 100;
-letter-spacing: 0.17em;
-}
-
 #body, #usage, #bigger-picture, #thank-you{
 	text-align: center;
 }
 
-#body {
-background-color: rgba(145,198,255,0.75);
-padding: 100px 0px;
-color: #777;
-}
 
-
-#body p {
-font-size: 14px;
-font-weight: 300;
-}
-
-footer {
-text-align: center;
-padding: 25px 0px;
-font-size: 11px;
-font-weight: 100;
-font-family: 'Roboto';
-background-color: #000;
-color: #FFF;
-letter-spacing: 0.13em;
-}
-
-hr{}
-
-#body i.icon-info {
-background-color: rgba(0,0,0,1);
-border-radius: 50px;
-height: 100px;
-width: 100px;
-font-size: 50px;
-text-align: center;
-color: #FFF;
-display: block;
-margin: auto;
-margin-bottom: 23px;
-padding-top: 20px;
-}
 </style>
 <header id="home">
 	<div >
@@ -85,74 +22,6 @@ padding-top: 20px;
 	</div>
 </section>
 
-<style type="text/css">
-#usage {
-padding: 89px 0px;
-min-height: 50%;
-}
-
-#usage .pre{}
-
-#usage .pre h3 {
-color: #555;
-font-weight: 200;
-letter-spacing: 0.12em;
-}
-
-#usage .pre div{}
-
-#usage .pre div p {
-font-weight: 300;
-font-size: 15px;
-margin: 0px;
-color: #888;
-line-height: 1.60em;
-letter-spacing: 0.1em;
-}
-#usage h4 {
-font-size: 60px;
-font-weight: 100;
-letter-spacing: 0.21em;
-}
-
-</style>
-<style>
-#usage .map-divs {
-width: 90%;
-margin: auto;
-margin-top: 58px;
-}
-
-#usage .map-divs .map-div{
-	background-color: #FFF;
-padding: 5px;
-margin-bottom: 20px;
-}
-
-#usage .map-divs .map-div .basic{
-	height: 500px;
-	width: 45%;
-	float: left;
-}
-
-#usage .map-divs .map-div .content{
-	float: left;
-	text-align: left;
-	width: 50%;
-	margin-left: 10px;
-}
-
-#usage .map-divs .map-div .content pre {
-overflow: auto;
-height: 363px;
-background-color: #EEE;
-padding: 0px 14px;
-}
-
-#usage .map-divs .map-div .content xmp {
-white-space: pre-line;
-}
-</style>
 <section id="usage">
 	<div>
 		<h4>Usage</h4>
@@ -299,34 +168,11 @@ white-space: pre-line;
 		</div>
 	</div>
 </section>
-<style type="text/css">
-#bigger-picture{
-	padding: 100px 0px;
-	background-color: #FFF;
-}
-
-#bigger-picture h1{
-font-weight: 100;
-font-size: 1.75em;
-
-}
-
-#bigger-picture p{
-
-}
-
-#bigger-picture div.p {
-width: 39%;
-margin: auto;
-font-weight: 100;
-}
-#thank-you{
-	padding: 30px 0px;
-	background-color: #DDD;
-}
-</style>
 <section id="bigger-picture">
-	<h1>The <span style="font-size: 80px; text-transform: uppercase; font-weight: 900; color: #000; letter-spacing: -0.12em;">bigger</span> picture</h1>
+	<h1>The 
+		<span style="font-size: 80px; text-transform: uppercase; font-weight: 900; color: #000; letter-spacing: -0.12em;">
+		bigger</span> picture</h1>
+		<%= link_to "Big Picture", :home_map %>
 	<div class="p">
 		
 		<p>

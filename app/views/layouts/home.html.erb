@@ -13,7 +13,7 @@
 </style>
 
 </head>
-<body>
+<body id="<%= params[:controller].parameterize %>_controller">
 <%= yield %>
 <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
 <footer>

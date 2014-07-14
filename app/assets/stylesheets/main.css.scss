@@ -1,0 +1,25 @@
+body{
+	font-family: 'Roboto', sans-serif;padding: 0;margin: 0;
+	background-color: transparent;
+	background-image: url('/assets/skulls.png');
+	height: 100%;
+}
+
+html{
+	
+}
+
+.clear{
+	clear:both;
+}
+
+footer {
+	text-align: center;
+	padding: 25px 0px;
+	font-size: 11px;
+	font-weight: 100;
+	font-family: 'Roboto';
+	background-color: #000;
+	color: #FFF;
+	letter-spacing: 0.13em;
+}

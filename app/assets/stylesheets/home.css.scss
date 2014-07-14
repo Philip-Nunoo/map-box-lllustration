@@ -1,3 +1,146 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#home_controller{
+	#home{
+		padding: 20% 0px;
+		color: #FFF;
+		background-color: rgba(0,0,0,0.75);
+		text-align: center;
+		height: 99%;
+
+		h1 {
+			color: #FFF;
+			font-family: 'Roboto', sans-serif;
+			text-shadow: 4px 0px 0px rgb(0,0,0);
+			font-weight: 100;
+		}
+
+		h4 {
+			color: #DDD;
+			text-shadow: 0px 0px 0px #333;
+			font-weight: 100;
+			letter-spacing: 0.17em;
+		}
+	}
+
+	#body {
+		background-color: rgba(145,198,255,0.75);
+		padding: 100px 0px;
+		color: #777;
+
+		p {
+			font-size: 14px;
+			font-weight: 300;
+		}
+
+		i.icon-info {
+			background-color: rgba(0,0,0,1);
+			border-radius: 50px;
+			height: 100px;
+			width: 100px;
+			font-size: 50px;
+			text-align: center;
+			color: #FFF;
+			display: block;
+			margin: auto;
+			margin-bottom: 23px;
+			padding-top: 20px;
+		}
+	}
+
+	#usage {
+		padding: 89px 0px;
+		min-height: 50%;
+
+		.pre{
+			h3 {
+				color: #555;
+				font-weight: 200;
+				letter-spacing: 0.12em;
+			}
+
+			div{
+				p {
+					font-weight: 300;
+					font-size: 15px;
+					margin: 0px;
+					color: #888;
+					line-height: 1.60em;
+					letter-spacing: 0.1em;
+				}
+			}
+		}
+
+		h4 {
+			font-size: 60px;
+			font-weight: 100;
+			letter-spacing: 0.21em;
+		}
+
+		.map-divs {
+			width: 90%;
+			margin: auto;
+			margin-top: 58px;
+
+			.map-div{
+				background-color: #FFF;
+				padding: 5px;
+				margin-bottom: 20px;
+
+				.basic{
+					height: 500px;
+					width: 45%;
+					float: left;
+				}
+
+				.content{
+					float: left;
+					text-align: left;
+					width: 50%;
+					margin-left: 10px;
+					
+					pre {
+						overflow: auto;
+						height: 363px;
+						background-color: #EEE;
+						padding: 0px 14px;
+					}
+
+					xmp {
+						white-space: pre-line;
+					}
+				}
+			}
+		}
+
+	}
+
+	#bigger-picture{
+		padding: 100px 0px;
+		background-color: #FFF;
+
+		h1{
+			font-weight: 100;
+			font-size: 1.75em;
+		}
+
+		p{
+
+		}
+
+		div.p {
+			width: 39%;
+			margin: auto;
+			font-weight: 100;
+		}
+	}
+
+	
+	#thank-you{
+		padding: 30px 0px;
+		background-color: #DDD;
+	}
+
+}
