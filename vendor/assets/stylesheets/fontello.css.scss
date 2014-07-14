@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'fontello';
+  src: url(font-path('fontello.eot?92817008'));
+  src: url(font-path('fontello.eot?92817008#iefix')) format('embedded-opentype'),
+       url(font-path('fontello.woff?92817008')) format('woff'),
+       url(font-path('fontello.ttf?92817008')) format('truetype'),
+       url(font-path('fontello.svg?92817008#fontello')) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url(font-path('fontello.svg?92817008#fontello')) format('svg');
+  }
+}
+*/
+ 
+ %icon-base {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+%icon-signal:before { @extend %icon-base; content: '\e800'; } /* '' */
+%icon-github:before { @extend %icon-base; content: '\e801'; } /* '' */
+%icon-location:before { @extend %icon-base; content: '\e802'; } /* '' */
+%icon-location-circled:before { @extend %icon-base; content: '\e803'; } /* '' */
+%icon-tint:before { @extend %icon-base; content: '\e804'; } /* '' */
+%icon-location-1:before { @extend %icon-base; content: '\e805'; } /* '' */
+%icon-paper-plane:before { @extend %icon-base; content: '\e806'; } /* '' */
+%icon-location-2:before { @extend %icon-base; content: '\e807'; } /* '' */
+%icon-space-shuttle:before { @extend %icon-base; content: '\e808'; } /* '' */
+%icon-leaf:before { @extend %icon-base; content: '\e809'; } /* '' */
+%icon-git:before { @extend %icon-base; content: '\e80a'; } /* '' */
+%icon-github-1:before { @extend %icon-base; content: '\e80b'; } /* '' */
+%icon-github-circled:before { @extend %icon-base; content: '\e80d'; } /* '' */
+%icon-info:before { @extend %icon-base; content: '\e80f'; } /* '' */
+
+.icon-signal { @extend %icon-signal; }
+.icon-github { @extend %icon-github; }
+.icon-location { @extend %icon-location; }
+.icon-location-circled { @extend %icon-location-circled; }
+.icon-tint { @extend %icon-tint; }
+.icon-location-1 { @extend %icon-location-1; }
+.icon-paper-plane { @extend %icon-paper-plane; }
+.icon-location-2 { @extend %icon-location-2; }
+.icon-space-shuttle { @extend %icon-space-shuttle; }
+.icon-leaf { @extend %icon-leaf; }
+.icon-git { @extend %icon-git; }
+.icon-github-1 { @extend %icon-github-1; }
+.icon-github-circled { @extend %icon-github-circled; }
+.icon-info { @extend %icon-info; }
